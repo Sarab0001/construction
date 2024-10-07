@@ -54,19 +54,14 @@ const Footer: React.FC = () => {
             <li className=" text-gray-300">Electrical & Instrument</li>
             <li className=" text-gray-300">IT & Telecommunication</li>
             <li className=" text-gray-300">Engineering and Design</li>
-            <li className=" text-gray-300">
-              Civil, Elect. & Inst. Maintenance
-            </li>
+            <li className=" text-gray-300">Civil Elect. & Inst. Maintenance</li>
           </ul>
         </div>
 
         <div>
           <h3 className="font-semibold text-xl mb-4">Contact Us</h3>
-          <p className="text-lg text-gray-300">
-            Address: C-71 Second Floor, C Block, Sector 2, Noida, Uttar Pradesh
-            201301
-          </p>
-          <p className=" text-gray-300 mt-2">Phone: +91 1234567890</p>
+          <p className="text-lg text-gray-300">Address: --</p>
+          <p className=" text-gray-300 mt-2">Phone: +91 12345678XXX</p>
           <p className=" text-gray-300 mt-2">Mail: global@example.com</p>
         </div>
       </div>
