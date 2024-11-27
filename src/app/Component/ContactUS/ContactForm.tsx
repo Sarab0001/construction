@@ -51,7 +51,7 @@ const ContactFormWithMap = () => {
       {/* Map */}
       <div className="h-full w-full">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.425733148631!2d77.37495487381543!3d28.616999884788957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cefaf1b960015%3A0x46ffc8dbf3611ded!2sHangingPanda%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1727348519799!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.2932491441707!2d77.16330529999999!3d28.650936899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d02ee496c280f%3A0x29a4dc2cbe913072!2sD-57%2C%20Block%20D%2C%20West%20Patel%20Nagar%2C%20Patel%20Nagar%2C%20New%20Delhi%2C%20Delhi%2C%20110008!5e0!3m2!1sen!2sin!4v1732689941899!5m2!1sen!2sin"
           width="900"
           height="450"
           className="w-full h-full"

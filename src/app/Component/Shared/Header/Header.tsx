@@ -41,7 +41,7 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 z-50 w-full bg-white shadow">
       {/* Top contact bar */}
-      <div className="bg-white-100 py-2">
+      <div className="bg-white-100 py-2 hidden md:block ">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           {/* Contact Info */}
           <div className="flex flex-col md:flex-row items-start md:items-center space-y-2 md:space-y-0 md:space-x-4 text-sm sm:text-md text-black-600 font-semibold">
@@ -141,31 +141,53 @@ const Header: React.FC = () => {
             ref={menuRef}
             className="lg:hidden flex flex-col space-y-2 mt-4 px-4"
           >
-            <Link href="/home" className="text-gray-700 hover:text-blue-600">
+            <Link
+              href="/home"
+              className="text-gray-700 hover:text-blue-600"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Home
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-600">
+            <Link
+              href="/about"
+              className="text-gray-700 hover:text-blue-600"
+              onClick={() => setIsMenuOpen(false)}
+            >
               About Us
             </Link>
             <Link
               href="/services"
               className="text-gray-700 hover:text-blue-600"
+              onClick={() => setIsMenuOpen(false)}
             >
               Services
             </Link>
-            <Link href="#" className="text-gray-700 hover:text-blue-600">
+            <Link
+              href="#"
+              className="text-gray-700 hover:text-blue-600"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Project
             </Link>
             <Link
               href="/certificate"
               className="text-gray-700 hover:text-blue-600"
+              onClick={() => setIsMenuOpen(false)}
             >
               Certificate
             </Link>
-            <Link href="#" className="text-gray-700 hover:text-blue-600">
+            <Link
+              href="#"
+              className="text-gray-700 hover:text-blue-600"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Blog
             </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-blue-600">
+            <Link
+              href="/contact"
+              className="text-gray-700 hover:text-blue-600"
+              onClick={() => setIsMenuOpen(false)}
+            >
               Contact Us
             </Link>
           </div>
